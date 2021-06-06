@@ -1,6 +1,9 @@
 div{
     display: block;
 }
+html{
+    height: 100%;
+}
 .center{
     height: 100%;
     width: 100%;
@@ -14,7 +17,7 @@ div{
 .navflexbase{
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 6px;
 }
 .navheight{
     height: 60px;
@@ -23,12 +26,16 @@ div{
     flex-shrink: 0;
     box-sizing: border-box;
 }
+.aboutpadding{
+    margin-left: 15px;
+}
 .navletters{
     display:inline-flex;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 20px;
-    font-family: Arial,sans-serif;
+    padding: 10px;
+    font-family:Arial,sans-serif;
+    font-size: 14px;
 }
 .navlettersright{
     vertical-align: middle;
@@ -36,10 +43,50 @@ div{
     text-align: center;
     padding: 20px;
     font-family: Arial,sans-serif;
+    font-size: 14px;
 }
 .navhalf{
     margin-left: auto;
 }
 .icons{
     padding: 15px;
+}
+.footerbar{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    height: auto;
+}
+.footershrink{
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.footertext{
+    display: inline-flex;
+    color: rgb(87, 87, 87);
+    text-align: center;
+    padding: 20px;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+}
+.endmargin{
+    margin-right: 15px;
+}
+.footerleft{
+    margin-right: auto;
+}
+.footerright{
+    margin-left: auto;
+}
+.footercenter{
+    justify-content: center;
+}
+body{
+    min-height: calc(100vh-40px);
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
 }
