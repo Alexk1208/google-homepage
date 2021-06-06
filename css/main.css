@@ -1,6 +1,9 @@
 html{
     background-color: black;
 }
+div{
+    display: block;
+}
 .center{
     height: 100%;
     width: 100%;
@@ -23,14 +26,15 @@ html{
     box-sizing: border-box;
 }
 .navletters{
-    display: inline;
+    display: inline-block;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
     font-family: Arial,sans-serif;
 }
 .navhalf{
-    display: inline-block;
+    min-width: auto;
+    margin-left: auto;
 }
 
 #searchbar{
