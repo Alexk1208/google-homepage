@@ -1,6 +1,3 @@
-html{
-    background-color: black;
-}
 div{
     display: block;
 }
@@ -18,7 +15,6 @@ div{
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: rgb(49, 49, 49);
 }
 .navheight{
     height: 60px;
@@ -28,19 +24,22 @@ div{
     box-sizing: border-box;
 }
 .navletters{
-    display: inline-block;
-    color: rgb(255, 255, 255);
+    display:inline-flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    font-family: Arial,sans-serif;
+}
+.navlettersright{
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px;
     font-family: Arial,sans-serif;
 }
 .navhalf{
-    min-width: auto;
     margin-left: auto;
 }
-
-#searchbar{
-    border-radius: 200em;
-    background: grey;
-
+.icons{
+    padding: 15px;
 }
