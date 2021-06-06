@@ -2,23 +2,39 @@ html{
     background-color: black;
 }
 .center{
-    text-align: center;
-}
-#navbar{
-    list-style-type: none;
+    height: 100%;
+    width: 100%;
     display: flex;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(99, 96, 96);
-    justify-content: flex-end;
-    flex-wrap: wrap;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
 }
-li{
+.navflexbase{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(49, 49, 49);
+}
+.navheight{
+    height: 60px;
+}
+.navshrink{
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.navletters{
     display: inline;
-    display: block;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: .25em;
-    text-decoration: none;
+    padding: 20px;
+    font-family: Arial,sans-serif;
+}
+.navhalf{
+    display: inline-block;
+}
+
+#searchbar{
+    border-radius: 200em;
+    background: grey;
+
 }
