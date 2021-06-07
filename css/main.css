@@ -8,6 +8,7 @@ html{
     height: 100%;
     width: 100%;
     margin-top: 200px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -82,13 +83,16 @@ html{
     justify-content: center;
 }
 .roundsearch{
-    width: 482px;
+    max-width: 584px;
     height: 44px;
     border-radius: 24px;
-    border: 1px rgb(170, 170, 170) solid;
+    border: 1px rgb(206, 206, 206) solid;
     box-shadow: none;
     margin:0 auto;
     z-index: 3;
+}
+.roundsearch:hover{
+    box-shadow:0 0 5px 1px rgb(192, 192, 192);
 }
 .barinsidesearch{
     flex: 1;
@@ -97,13 +101,73 @@ html{
     padding-left: 14px;
 }
 #searchicon{
-    color: rgb(146, 146, 146);
+    color: rgb(196, 196, 196);
     font-size: 20px;
     display: inline-block;
     position: relative;
+    margin-right: 5px;
+    margin-top: 7px;
 }
-.searchbar{
-
+#micicon{
+    color: rgb(151, 151, 151);
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+.searchbarsize{
+    border:0;
+    outline: none;
+    width: 450px;
+    height: 34px;
+    margin-right: auto;
+    font-size: 16px;
+}
+.buttonbox{
+    padding-top: 10px;
+    top: 57px;
+    z-index: 0;
+    height: 40px;
+    display: block;
+}
+.buttonposition{
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 11px 4px;
+}
+#googsearch{
+    outline: grey;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    cursor: pointer;
+}
+#googsearch:hover{
+    border: 1px solid rgb(201, 201, 201);
+}
+#lucky{
+    outline: grey;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    cursor: pointer;
+}
+#lucky:hover{
+    border: 1px solid rgb(201, 201, 201);
 }
 body{
     min-height: calc(100vh-40px);
